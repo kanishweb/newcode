@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.listoftable{
+  text-align: center;
+  background-color: aquamarine;
+  height: 100vh;
+}
+.listoftable1{
+ width: 30%;
+  background-color: aquamarine;
+  border-radius: 11px;
+  text-align: center;
+  margin-left: 38%;
+  padding-bottom: 25px;
+ 
+}
+
+.textview{
+
+ margin: 10px;
+  border-color: darkgreen;
+  border-radius: 8px;
+  display: flex;
+  padding: 10px;
+  text-align: center;
+  margin-left: 43%;
+}
+.h1tx{
+  padding-top: 14px;
+    font-size: 25px;
+}
+.pcounter{
+  text-align: center;
+}
+
+.pcounter12{
+  text-align: center;
+  line-height: 20px;
+}
+
+.pcounter1{
+  width: 30%;
+ background-color: #61dafb;
+  border-radius: 4px;
+  text-align: center;
+  margin-left: 38%;
+  padding-bottom: 25px;
+  color: rgb(255, 255, 255);
+}
+
+.udlist{
+  background: #108109;
+  color: aliceblue;
+  width: 100px;
+  border-radius: 7px;
+  border: 3px solid #174c01;
+
+}
+.dllist{
+  background: #e10a0a;
+  color: aliceblue;
+  width: 100px;
+  border-radius: 7px;
+  border: 3px solid #4c0101;
+  
+}
+.listedfro1{
+  background-color: darkkhaki;
+  margin-top: 10px;
+}
+
+
+.listedfro{
+  display: inline-flex;
+    background-color: aliceblue;
+    margin-top: 10px;
+}
